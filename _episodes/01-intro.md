@@ -2,7 +2,7 @@
 title: "Introducing the Shell"
 teaching: 5
 exercises: 0
-questions:
+Wequestions:
 - "What is a command shell and why would I use one?"
 objectives:
 - "Explain how the shell relates to the keyboard, the screen, the operating system, and users' programs."
@@ -29,10 +29,8 @@ At a high level, computers do four things:
 -   interact with us
 
 
-Computers can interact with us in many different ways,
-such as through a keyboard and mouse, touch screen interfaces, or using speech recognition systems.
-While touch and voice interfaces are becoming more commonplace, most interaction is still
-done using traditional screens, mice, touchpads and keyboards.
+We interact with computers in many different ways,
+such as through a keyboar and mouse, touch screen interfaces, or using speech recognition systems.
 
 The **graphical user interface** (GUI) is the most widely used way to interact with
 personal computers. We give instructions (to run a program, to copy a file, to create
@@ -45,8 +43,7 @@ line by line. Using the traditional GUI approach of clicks will take several hou
 
 This is where we take advange of the shell - a **command-line interface**
 to make such repetitive tasks automatic and fast. It can take a single instruction and
-repeat it as is or with some modification as many times as we want. The task in
-the example above can be accomplished in a few minutes at most.
+repeat it as is or with some modification, as many times as we want. 
 
 The heart of a command-line interface is a **read-evaluate-print loop** (REPL). It is called
 so because when you type a command and press <kbd>Return</kbd> (also known as <kbd>Enter</kbd>) the shell

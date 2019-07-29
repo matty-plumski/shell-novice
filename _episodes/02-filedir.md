@@ -28,7 +28,6 @@ keypoints:
 The part of the operating system responsible for managing files and directories
 is called the **file system**.
 It organizes our data into files,
-which hold information,
 and directories (also called "folders"),
 which hold files or other directories.
 
@@ -101,7 +100,7 @@ because its name begins with `/`.
 > Notice that there are two meanings for the `/` character.
 > When it appears at the front of a file or directory name,
 > it refers to the root directory. When it appears *inside* a name,
-> it's just a separator.
+> it's a separator.
 {: .callout}
 
 Underneath `/Users`,
